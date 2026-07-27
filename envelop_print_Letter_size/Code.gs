@@ -38,7 +38,7 @@ function getSettings() {
     marginMm: 10,
     fromColPct: 42,                    // left column width % (From). To gets the rest.
     recipientTopMm: 25,                // shared top spacer for both blocks
-    fromText: 'From\nPathshala\nIT Lab Solutions Ltd\nContact: +88 01842 48 52 22',
+    fromText: 'From\nPathshala\nwww.pathshala-eims.com\nIT Lab Solutions Ltd\nContact: +88 01842 48 52 22',
     fontSize: 12,
     startRow: 1, endRow: 0             // 0 = all rows
   };
