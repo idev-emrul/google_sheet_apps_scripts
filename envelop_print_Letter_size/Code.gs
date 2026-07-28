@@ -103,7 +103,6 @@ function _appendEnvelope(body, r, idx, cfg, isLast) {
   // To block — drop any field line left empty (e.g. "Union: " with no value)
   const toLines = [
     { t: 'To',                            bold: false },
-    { t: 'The Head Master',               bold: false },
     { t: institute,                       bold: true  },
     { t: 'District: ' + _clean(r[idx.D]), bold: false },
     { t: 'Thana: '    + _clean(r[idx.T]), bold: false },
